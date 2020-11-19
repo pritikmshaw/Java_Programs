@@ -1,4 +1,4 @@
-public class Array {
+public class Array {0
     public static void main(String[] args)
     { 
     try
