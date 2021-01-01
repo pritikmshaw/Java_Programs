@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.* ;
 public class Hello  {
     public void nonStaticMethod() {
         System.out.println("Non Static Method");
@@ -9,9 +9,9 @@ public class Hello  {
     }
     public static void main (String args[]) {
         System.out.println("Hello World");
-        HelloWorld helloWorldObject = new HelloWorld();
-        helloWorldObject.nonStaticMethod();
+        Hello helloObject= new Hello();
+        helloObject.nonStaticMethod();
         staticmMthod();
-
     }
+
 }
