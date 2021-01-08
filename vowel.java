@@ -1,3 +1,5 @@
+// Program to check if the given character is a vowel or consonant using if-else
+
 import java.util.*;
 public class vowel  {
 public static void main (String[] args) {
