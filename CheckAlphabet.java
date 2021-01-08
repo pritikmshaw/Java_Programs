@@ -1,4 +1,4 @@
-// C program to check whether the character is an alphabet or not
+//program to check whether the character is an alphabet or not
 
 import java.util.Scanner;
 public class CheckAlphabet {
