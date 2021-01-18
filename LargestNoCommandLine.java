@@ -1,11 +1,11 @@
 // largest of 3 nos using comand line 
 public class LargestNoCommandLine {
     public static void main (String[] args) {
-        int a = Integer.parseInt(arr[0]);
-        int b = Integer.parseInt(arr[1]);
-        int c = Integer.parseInt(arr[2]);
+        int a = Integer.parseInt(args[0]);
+        int b = Integer.parseInt(args[1]);
+        int c = Integer.parseInt(args[2]);
         if(a>b && a>c) {
-            System.out.println("a is " +a+ " greatest");
+            System.out.println("a is "+a+" greatest");
         }
         else if (b>a && b>c) {
             System.out.println("b is " +b+ " greatest");
