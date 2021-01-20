@@ -19,7 +19,7 @@ public class MovieTest {
             m[i].display();
         }
     }
-    public static class Movie {
+    static class Movie {
         String name ;
     int rating ;
     long budget ;
