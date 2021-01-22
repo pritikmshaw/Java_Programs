@@ -1,3 +1,4 @@
+package college;
 import java.util.Scanner;
 class Account {
     private String name;
@@ -46,21 +47,21 @@ class Account {
             System.out.println("D. Previous transacation");
             System.out.println("E. Number of transaction");
             System.out.println("F. Exit");
-            System.out.println("******************************");
+            System.out.println("***************************");
 
             System.out.print("Enter an option : ");
             option= obj.next().charAt(0);
             switch (option){
                 case 'A':
                     System.out.println("Balance= "+bal);
-                    System.out.println("******************************");
+                    System.out.println("****************************");
                     System.out.println("\n");
                     count=count+1;
                     break;
                 case 'B':
                     System.out.print("Enter amount to deposit= ");
                     int amount=obj.nextInt();
-                    System.out.println("******************************");
+                    System.out.println("*****************************");
 
                     deposit(amount); // function call
                     System.out.println("\n");
@@ -69,14 +70,14 @@ class Account {
                 case 'C':
                     System.out.print("Enter amount to withdraw= ");
                     int amount2=obj.nextInt();
-                    System.out.println("******************************");
+                    System.out.println("*******************************");
                     withdraw(amount2); // function call
                     System.out.println("\n");
                     count=count+1;
                     break;
                 case 'D':
                     getlastansac();  // method called 
-                    System.out.println("******************************");
+                    System.out.println("********************************");
                     System.out.println("\n");
                     count=count+1;
                     break;

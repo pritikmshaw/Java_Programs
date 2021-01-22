@@ -1,4 +1,5 @@
-public class Array {0
+package college;
+public class Array {
     public static void main(String[] args)
     { 
     try

@@ -1,4 +1,4 @@
-
+package college;
 public class Bank{
     public static void main(String args[]){
         Account obj1= new Account("Priti Shaw ",154685,"Savings");

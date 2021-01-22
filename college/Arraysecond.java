@@ -1,3 +1,4 @@
+package college;
 public class Arraysecond
 {
 	public static void main(String[] args) 
