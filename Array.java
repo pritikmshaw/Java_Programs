@@ -10,6 +10,7 @@ public class Array {
         int i = 0;
         for(i=0;i<a.length;i++) {
             System.out.println(a[i]);
+
         }
     }
 }
